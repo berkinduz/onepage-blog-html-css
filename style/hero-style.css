@@ -26,7 +26,7 @@ a {
 /* HERO SECTION */
 
 #hero {
-  background-image: url(./img/hero-bg.png);
+  background-image: url(../img/hero-bg.png);
   background-size: cover;
   background-position: center;
   position: relative;
