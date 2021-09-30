@@ -26,7 +26,7 @@ a {
 /* HERO SECTION */
 
 #hero {
-  background-image: url(../img/hero-bg.png);
+  background-image: url(../img/hero-pic.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -79,7 +79,7 @@ a {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: orangered;
+  background-color: crimson;
   animation: text_reveal_box 1s ease;
   animation-delay: 0.5s;
 }
@@ -96,9 +96,9 @@ a {
 #hero .cta {
   display: inline-block;
   padding: 10px 30px;
-  color: white;
+  color: crimson;
   background-color: transparent;
-  border: 2px solid orangered;
+  border: 2px solid crimson;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -110,8 +110,8 @@ a {
 }
 
 #hero .cta:hover {
-  color: black;
-  background-color: orangered;
+  color: white;
+  background-color: crimson;
 }
 
 @keyframes text_reveal_box {
@@ -133,7 +133,7 @@ a {
 
 @keyframes text_reveal_name {
   100% {
-    color: orangered;
+    color: crimson;
     font-weight: bolder;
   }
 }
