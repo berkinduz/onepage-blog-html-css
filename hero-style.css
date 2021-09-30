@@ -69,15 +69,17 @@ a {
   animation-delay: 2s;
 }
 #hero h1:nth-child(3) {
+  animation: text_reveal_name 0.5s ease forwards;
   animation-delay: 3s;
 }
+
 #hero h1 span {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 0;
-  background-color: crimson;
+  background-color: orangered;
   animation: text_reveal_box 1s ease;
   animation-delay: 0.5s;
 }
@@ -94,9 +96,9 @@ a {
 #hero .cta {
   display: inline-block;
   padding: 10px 30px;
-  color: crimson;
+  color: white;
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid orangered;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -108,8 +110,8 @@ a {
 }
 
 #hero .cta:hover {
-  color: white;
-  background-color: crimson;
+  color: black;
+  background-color: orangered;
 }
 
 @keyframes text_reveal_box {
@@ -126,6 +128,13 @@ a {
 @keyframes text_reveal {
   100% {
     color: white;
+  }
+}
+
+@keyframes text_reveal_name {
+  100% {
+    color: orangered;
+    font-weight: bolder;
   }
 }
 
