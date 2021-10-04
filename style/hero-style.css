@@ -9,6 +9,7 @@
 html {
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
+  background-color: #cdbba6;
 }
 
 a {
@@ -93,7 +94,7 @@ a {
 #hero h1:nth-child(3) span {
   animation-delay: 2.5s;
 }
-#hero .cta {
+.cta {
   display: inline-block;
   padding: 10px 30px;
   color: white;
@@ -109,7 +110,7 @@ a {
   font-weight: bold;
 }
 
-#hero .cta:hover {
+.cta:hover {
   color: white;
   background-color: crimson;
 }
