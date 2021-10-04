@@ -27,7 +27,7 @@ a {
 /* HERO SECTION */
 
 #hero {
-  background-image: url(../img/hero-pic.png);
+  background-image: url("https://images.unsplash.com/photo-1542293011-a7c656888275?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
   background-size: cover;
   background-position: center;
   position: relative;
